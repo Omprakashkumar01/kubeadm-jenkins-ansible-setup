@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ansible-pod
+spec:
+  containers:
+  - name: ansible
+    image: ansible-custom
+    command: ["sleep", "infinity"]
+
