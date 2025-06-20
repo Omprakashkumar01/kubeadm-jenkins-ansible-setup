@@ -48,8 +48,7 @@ Find Jenkins service NodePort:
 ```
 kubectl get svc jenkins-service
 ```
-Open in browser:
-http://<NodeIP>:<NodePort>
+Open in browser
 
 ## 🤖 Running Ansible from Jenkins
 Example shell build step in Jenkins:
